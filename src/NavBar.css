@@ -1,0 +1,61 @@
+.nav_main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    display:flex;
+    flex: 10%;
+    align-items: right;
+}
+.nav_mid{
+    flex: 60%;
+}
+.nav_last{
+    flex: 20%;
+    align-items: left;
+}
+.logo_left{
+    padding-left: 28%;
+}
+.logo_right{
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+    margin-left: -12px;
+    
+}
+.logo_right>p{
+    font-size: 10px;
+    font-weight: 500;
+    
+}
+.dwidasa_logo{
+    margin-top: 7px;
+}
+.nav_header{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    color: rgba(31, 46, 53, 0.8);
+    margin: 0 30%;
+}
+.union_image{
+    margin-left: 55px;
+}
+.mail_image{
+    margin-left: 55px;
+}
+.shuffle_image{
+    margin-left: 55px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav_main {
+        width: 100%;
+    }
+    .logo{
+        flex: 0;
+    }
+}

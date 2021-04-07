@@ -1,0 +1,12 @@
+.Footer_Container{
+    background-color: #EE4248;
+}
+.Footer_main{
+    text-align: center;
+    padding: 10px 0;
+}
+.Footer_Copyright{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold !important;
+}

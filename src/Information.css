@@ -1,0 +1,131 @@
+.Information_Container{
+    display: flex;
+    padding: 100px;
+}
+.Information_bottom_container{
+    margin: 2% 4%;
+}
+.info_top {
+    display: flex;
+}
+.dsi_side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+.dsi_side > img {
+    padding: 2px 0;
+}
+/* working on right container */
+.Top_Information{
+    color: #263238;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.Address_Information{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #263238;
+}
+/* working on middle container */
+.Contact_bottom_middle{
+    margin-left: 3%;
+}
+.Contact_Information{
+    color:#263238;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+} 
+.phone_fax_email{
+    margin-top: 20px;
+}
+.Phone_Information, .fax_Information , .email_Information{
+    color: #263238;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+/* bottom left image  */
+.Image_bottom_left{
+    margin-left: 5%;
+}
+.silverlight_image{
+    margin-left: 20px;
+    margin-top: 70px;
+}
+.microsoft_image, .java_image{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.ios_image{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.android_image{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.blackberry_image{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 600px) {
+    .Information_Container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .Top_Information{
+        line-height: 21px;
+        font-weight: 700 !important;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .Address_Information {
+        padding: 10px 0;
+    }
+    .Contact_bottom_middle{
+        margin-left: 0;
+    }
+    .Contact_Information{
+        font-size: 24px;
+        font-weight: 700 !important;
+        line-height: 28px;
+        margin-top: 0;
+        padding: 0 15px;
+    }
+    .phone_fax_email{
+        margin-top: 0;
+        padding: 0 15px;
+    }
+    .Phone_Information, .fax_Information , .email_Information{
+        margin-bottom: 0;
+    }
+    .Image_bottom_left{
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .silverlight_image, .microsoft_image, .java_image{
+        margin-left: 0;
+        padding: 0 10px;
+        width: 120px;
+    }
+    .ios_image, .android_image, .blackberry_image{
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100px;
+    }
+    .android_image, .blackberry_image {
+        margin-left: 10px;
+    }
+}

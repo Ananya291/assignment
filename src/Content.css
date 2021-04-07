@@ -1,0 +1,116 @@
+.Banner{
+    display: flex;
+    padding: 100px 200px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700 !important;
+}
+/* Banner left */
+.Banner_left{
+    flex: 50%;
+}
+.Banner_heading{
+    font-size: 45px;
+    line-height: 70px;
+    font-weight: bold;
+    color: #1F2E35;
+}
+.Information_design{
+    color: #EE4248;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 70px;
+}
+.Banner_subheading{
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+}
+.btn{
+    margin-top: 15px;
+}
+
+/* Banner right */
+.Banner_right{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+.lap_tab{
+    flex: 44%;
+}
+.tablet{
+    padding-left: 85px;
+    padding-bottom: 20px;
+} 
+.laptop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone{
+    flex: 55%;
+    padding-bottom:55px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Banner {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px 0;
+    }
+    /* Banner right */
+.Banner_right{
+    flex: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.lap_tab{
+    flex: 44%;
+}
+.tablet{
+    padding-left: 85px;
+    padding-bottom: 10px;
+} 
+.ta {
+    width: 100px;
+}
+.la, .lp {
+    width: 200px;
+}
+.ph {
+    height: 120px;
+    margin-left: 10px;
+}
+
+/* Banner left */
+.Banner_left{
+    flex: 100%;
+    text-align: center;
+}
+.Banner_heading{
+    margin-top: 24px;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: bold;
+    color: #1F2E35;
+}
+.Information_design{
+    margin-top: -5px;
+    font-size: 29px;
+    font-weight: bold !important;
+}
+.Banner_subheading{
+    padding-top: 0px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold !important;
+}
+.btn{
+    margin-top: 0;
+}
+}

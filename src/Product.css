@@ -1,0 +1,55 @@
+.Product_Container{
+    padding: 100px;
+}
+/* working on headline */
+.Product_headline{
+    margin-top: 10px;
+    text-align: center;
+}
+.Product_head{
+    color: #1F2E35;
+    font-size: 35px;
+    line-height: 135%;
+    font-weight: bold;
+}
+/* working on middle container */
+.Product_middle_container{
+    display: flex;
+}
+.Product_middle{
+    padding-left:78px;
+}
+.product_image, .service_image, .technology_image{
+    margin-top: 35px;
+    margin-bottom: 22px;
+}
+.Product_middle_heading{
+    color: #EE4248;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 170%;
+    font-weight: bolder;
+}
+.product_paragraph{
+    color: #30444E;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .Product_Container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 65px;
+    }
+    .Product_middle_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .Product_middle{
+        padding-left:0;
+        padding: 0 30px;
+        text-align: center;
+    }
+}
